@@ -14,6 +14,9 @@ field = [
     ['░', '^', '░'],
 ];
 
+//Clear console
+console.clear();
+
 //Print instructions
 console.log('Welcome to "Find your Hat". Move the asterisk to find the hat hidden in the field. Press "r" to move right, "l" to move left, "u" to move up and "d" to move down.');
 
@@ -25,6 +28,10 @@ console.log(field[0].length);
 
 // Initialise prompt loop
 while (true) {
+    // Clear console
+    console.clear();
+    //Print instructions
+    console.log('Welcome to "Find your Hat". Move the asterisk to find the hat hidden in the field. Press "r" to move right, "l" to move left, "u" to move up and "d" to move down.');
     // Print game field
     for (let i = 0; i < field.length; i++) {
         console.log(field[i].join(''));
